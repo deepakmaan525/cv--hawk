@@ -47,7 +47,7 @@
     display: block;
 }
 
-.width_sunrise {
+.circle-width {
     width: 50%;
 }
 
@@ -881,7 +881,7 @@
         min-height: 100vh;
     }
 
-    .width_sunrise {
+    .circle-width {
         width: 50%;
     }
 
@@ -953,7 +953,7 @@
         left: 3%;
     }
 
-    .width_sunrise {
+    .circle-width {
         width: 75%;
     }
 
@@ -1026,7 +1026,7 @@
         left: 4%;
     }
 
-    .width_sunrise {
+    .circle-width {
         width: 100%;
     }
 
