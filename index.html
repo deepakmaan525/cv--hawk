@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV_HAWK</title>
+    <!-- meta-tag -->
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/image/favicon.ico">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="overflow_hidden">
+    <!-- Preloader-->
+    <div id="preloder"
+        class="vh-100 bg-black d-flex justify-content-center align-items-center  position-fixed top-0 start-0 w-100 z-5">
+        <div class=" preloder fw-semibold ff-rubik text-white2 fs-xxl1 flex-column d-flex"><img
+                src="./assets/image/logo.png" alt="logo">
+            <p class="mb-0 fs-lg text_white2 ff-rubik"><span class="text_orange">CV</span>Hawk</p>
+        </div>
+    </div>
+    <!-------------------header------------------->
+    <header class=" bg_color overflow-hidden d-flex justify-content-center flex-column min_vh_100">
+        <nav class="my-container container ">
+            <div class="d-flex align-items-center justify-content-between pt-3">
+                <div><img class="page-logo cursor-pointer" src="./assets/image/page-logo.png" alt="page-logo"></div>
+                <div class=" nav-icon  d-flex d-lg-none flex-column justify-content-between" onclick="navbar()">
+                    <span class=" span1"></span>
+                    <span class=" position-relative span2"></span>
+                    <span class=" span3"></span>
+                </div>
+                <ul
+                    class="px-0 mb-0 d-flex flex-column flex-lg-row justify-content-center align-items-center view gap-sm-5 gap-4">
+                    <div class="d-block d-sm-none"><img class="page-logo cursor-pointer"
+                            src="./assets/image/page-logo.png" alt="page-logo"></div>
+                    <li class="bb-nav pb-4 pb-lg-0"><a class="text-black fs-sm fw-normal ff-rubik hover-orange"
+                            href="#home" onclick="navbar2()">Home</a>
+                    </li>
+                    <li class="bb-nav pb-4 pb-lg-0"><a class="text-black fs-sm fw-normal ff-rubik hover-orange"
+                            href="#about_us" onclick="navbar2()">About</a>
+                    </li>
+                    <li class="bb-nav pb-4 pb-lg-0"><a class="text-black fs-sm fw-normal ff-rubik hover-orange"
+                            href="#blog" onclick="navbar2()">We’ll help you</a>
+                    </li>
+                    <li><a class="text-black fs-sm fw-normal ff-rubik hover-orange" href="#choose"
+                            onclick="navbar2()">Testimonials</a></li>
+                    <li class="d-block d-sm-none"> <a href="#footer"
+                            class=" primary-btn fs-sm fw-semibold bg_orange text_white1" onclick="navbar2()">Get in
+                            Touch</a></li>
+                </ul>
+                <a href="#" class=" primary-btn d-none d-sm-block me-5 me-lg-0 fs-sm fw-semibold bg_orange text_white1"
+                    onclick="navbar2()">Get in Touch</a>
+            </div>
+        </nav>
+        <div
+            class="d-flex flex_grow justify-content-center align-items-center flex-column position-relative z-2 pt-5 pt-mf-0">
+            <span class="heroSec-ellipse"></span>
+            <div class="hero_main_ellipse object-cover d-none d-md-block"><img class="width"
+                    src="./assets/image/hero_ellpise_main.png" alt="ellipse">
+            </div>
+            <div class="hero_main_ellipse2 object-cover d-none d-md-block"><img class="width"
+                    src="./assets/image/hero_ellpise_main.png" alt="ellipse">
+            </div>
+            <div class="cv_tool_left_hero"><img class="width_sunrise" src="./assets/image/CV_tool.png" alt="tool"></div>
+            <div class="cv_tablet_hero d-none d-md-block"><img src="./assets/image/circle_path.png" alt="hero"></div>
+            <div class="cv_hero_sunrise"><img class="width_sunrise" src="./assets/image/clip_cv.png" alt="clip"></div>
+            <div class="semi_circle_hero_section"><img class="width_sunrise" src="./assets/image/semi-circle.png"
+                    alt="semi_circle_hero_section"></div>
+            <div class="hero_right_ellipse d-none d-md-block"><img class="width"
+                    src="./assets/image/hero_ellipse_right.png" alt="hero_right"></div>
+            <div class="hero_right_ellipse2 d-none d-md-block"><img class="width"
+                    src="./assets/image/hero_ellipse_right.png" alt="hero_right"></div>
+            <h1 class=" mb-0 fs-xxl1 ff-rubik fw-semibold mw_766 text-center text-black ">Unlock Your Potential with a
+                Professional
+                <span class=" position-relative ">CV Builder </span>
+            </h1>
+            <p class=" mb-0 fs-sm fw-normal mw_565 text-center ff-rubik text_gray2 pt-3 pb-3 ">Our user-friendly
+                platform guides
+                you
+                through the process, allowing you to customize every section to align with your unique career goals.
+            </p>
+            <div class=" d-flex align-items-center gap-3 pt-3 pt-sm-4 ">
+                <button class=" primary-btn bg_orange text_white2 fs-sm fw-semibold ff-rubik">Get Started</button>
+                <button class=" hero_section_btn bg-transparent text_orange fs-sm fw-semibold ff-rubik">Watch
+                    Demo</button>
+            </div>
+        </div>
+        <div class="slider_hero_section d-md-none pt-5 pt-md-0 slider_one">
+            <div class="mx-3">
+                <img class="w-100 object-cover" src="./assets/image/hero_slider_img.png" alt="slider">
+            </div>
+            <div class="mx-3">
+                <img class="w-100 object-cover" src="./assets/image/hero_slider_img.png" alt="slider">
+            </div>
+            <div class="mx-3">
+                <img class="w-100 object-cover" src="./assets/image/hero_slider_img.png" alt="slider">
+            </div>
+            <div class="mx-3">
+                <img class="w-100 object-cover" src="./assets/image/hero_slider_img.png" alt="slider">
+            </div>
+        </div>
+    </header>
+    <!-- second-section-silder -->
+    <section class="position-relative ">
+        <span class="slider_ellipse d-none d-sm-block "></span>
+        <span class="slider_ellipse_orange d-none d-sm-block "></span>
+        <div class="container my-container py-5">
+            <div class="row pb-sm-5">
+                <div class="col-lg-6 pb-sm-3 pb-lg-0">
+                    <div class="h-100"><img class=" w-100 main_img br-18 object-cover h-100"
+                            src="./assets/image/second_section_main_img.gif" alt="second_section_main">
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-4 themes_slider pt-4 pt-sm-5 pt-lg-0">
+                    <div class="themes_slick-slider">
+                        <div class="slider_card mx-2">
+                            <div class="d-flex justify-content-center"><img width="36" height="35" class="w-50 "
+                                    src="./assets/image/slider_main.png" alt="slider_main"></div>
+                            <h3 class="mb-0 pt-3 ff-rubik fw-medium text-black fs-lg ">Themes</h3>
+                        </div>
+                        <div class="slider_card mx-2">
+                            <div class="d-flex justify-content-center"><img width="36" height="35" class="w-25 "
+                                    src="./assets/image/customize.png" alt="slider_customize">
+                            </div>
+                            <h3 class="mb-0 pt-3 ff-rubik fw-medium text-black fs-lg ">Customize</h3>
+                        </div>
+                        <div class="slider_card_2 mx-2">
+                            <div class="d-flex justify-content-center"><img width="36" height="35" class="w-50 "
+                                    src="./assets/image/document.png" alt="slider_main"></div>
+                            <h3 class="mb-0 pt-3 ff-rubik fw-medium text-black fs-lg ">Make copies</h3>
+                        </div>
+                        <div class="slider_card mx-2">
+                            <div class="d-flex justify-content-center"><img width="36" height="35" class="w-50 "
+                                    src="./assets/image/templete.png" alt="slider_main"></div>
+                            <h3 class="mb-0 pt-3 ff-rubik fw-medium text-black fs-lg ">Templates</h3>
+                        </div>
+                    </div>
+                    <p class="ff-rubik fw-normal fs-sm fw-normal text_gray2 mb-0 lh-154 mw_499 ">Theme's robust features
+                        allow you
+                        to
+                        showcase
+                        your skills, accomplishments, and experiences in a captivating way. From customizing the layout
+                        to selecting the perfect color scheme, every detail can be tailored to match your style and
+                        industry. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- powerful tools -->
+    <section class="overflow-hidden position-relative gray_bg z-1 py-sm-5">
+        <div class="my-container container position-relative  py-4 my-2">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="position-relative">
+                        <h2 class="mb-0 ff-rubik fw-medium fs-xxl text_black2 position-relative">Powerful Tools to
+                            Create <span class="text_orange position-relative ">Your Standout CV</span></h2>
+                        <span class="tools-line"><svg xmlns="http://www.w3.org/2000/svg" width="345" height="11"
+                                viewBox="0 0 345 11" fill="none">
+                                <path
+                                    d="M0 5.41234C0 2.42319 2.42319 0 5.41234 0H345L5.58481 10.8219C2.52961 10.9193 0 8.46909 0 5.41234Z"
+                                    fill="url(#paint0_linear_24708_3417)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_24708_3417" x1="345" y1="5.37834e-07" x2="344.477"
+                                        y2="20.0097" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#FFA78A" />
+                                        <stop offset="1" stop-color="#FF7A34" />
+                                    </linearGradient>
+                                </defs>
+                            </svg></span>
+                    </div>
+                    <p class="mb-0 ff-rubik fw-normal fs-sm black_light mw_525 pt-4">Customize your CV to reflect your
+                        <span class="fw-semibold black">unique
+                            personality</span> and professional brand. Choose from a wide range of
+                        <span class="fw-semibold black">professionally designed</span> templates and layouts, allowing
+                        you to find the
+                        <span class="fw-semibold black">perfect
+                            style</span>that aligns with your industry and career goals.
+                    </p>
+                    <div class="text-end pt-lg-5 d-none d-sm-block"><img class="pe-sm-4 transform"
+                            src="./assets/image/ellipse.png" alt="ellipse">
+                    </div>
+                </div>
+                <div class="col-md-6 pt-4 pt-sm-5">
+                    <div class="powerful"><img class="w-100" src="./assets/image/man-with-laptop.png"
+                            alt="section_main_img">
+                    </div>
+                </div>
+            </div>
+            <span class="cv_tool d-none d-sm-block"><img class="width_sunrise" src="./assets/image/CV_tool.png"
+                    alt="tool"></span>
+            <span class="cv_clips d-none d-sm-block"><img class="width_sunrise" src="./assets/image/clip_cv.png"
+                    alt="cv"></span>
+        </div>
+    </section>
+    <!-- we help you -->
+    <section class="py-5 position-relative overflow-hidden">
+        <span class="we_right_ellipse d-none d-sm-block"></span>
+        <span class="we_left_ellipse d-none d-sm-block"></span>
+        <div class="my-container container py-md-5 my-lg-5">
+            <div class="row align-items-center flex-column-reverse flex-md-row py-lg-3">
+                <div class="col-md-6 pe-md-3 pt-5 ">
+                    <div class="position-relative"><img class="w-100 object-cover"
+                            src="./assets/image/calendar_main_section.png" alt="calendar_main">
+                        <img class="star_img" src="./assets/image/group_of_star.png" alt="star_img">
+                    </div>
+                    <button class="primary-btn mt-4 d-md-none ff-rubik bg_orange fs-sm fw-semibold text_white2">Book a
+                        Call</button>
+                </div>
+                <div class="col-md-6 ps-md-3">
+                    <h2 class="mb-0 ff-rubik fw-medium fs-xxl text_black2">We’ll help you</h2>
+                    <p class="mb-0 ff-rubik fw-normal fs-sm text_gray2 lh-154 mw_525 pt-3 pb-3">Once you've booked a
+                        session,
+                        a confirmation email will be sent to the provided email address, containing all the necessary
+                        details, including the date, time, and instructions for the session.</p>
+                    <button
+                        class="primary-btn mt-4 d-none d-md-block ff-rubik bg_orange fs-sm fw-semibold text_white2">Book
+                        a
+                        Call</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Professionally design sections -->
+    <section class=" bg-Professional overflow-hidden">
+        <div class="my-container container py-5 my-5">
+            <div class="row pb-5">
+                <div class="col-md-7">
+                    <h2 class="mb-0 ff-rubik fw-medium fs-xxl text_black2 mw_565">20+ <span
+                            class="text_orange">Professionally
+                            designed</span> resume sections
+                    </h2>
+                    <p class="mb-0 ff-rubik fw-normal fs-sm text_black4 mw_556 pt-3">Express your professional history
+                        without limitations or worry about how your resume looks</p>
+                    <div class="d-flex pt-3 align-items-center gap-2">
+                        <div class="correct_click"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                viewBox="0 0 19 19" fill="none">
+                                <path
+                                    d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z"
+                                    fill="#FAFAFA" />
+                            </svg></div>
+                        <p class="mb-0 ff-rubik fw-normal fs-sm text_black2">Professional sections like <span
+                                class="fw-semibold">Experience, Skills, Summary</span> and <span
+                                class="fw-semibold">Education</span></p>
+                    </div>
+                    <div class="d-flex pt-3 align-items-center gap-2">
+                        <div class="correct_click"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                viewBox="0 0 19 19" fill="none">
+                                <path
+                                    d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z"
+                                    fill="#FAFAFA" />
+                            </svg></div>
+
+                        <p class="mb-0 ff-rubik fw-normal fs-sm text_black2">Professional sections like <span
+                                class="fw-semibold">Strengths, Quotes, Books, Interests</span> and <span
+                                class="fw-semibold">My Time.</span></p>
+                    </div>
+                    <div class="d-flex pt-3 gap-2 pb-3">
+                        <div class="correct_click"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                viewBox="0 0 19 19" fill="none">
+                                <path
+                                    d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z"
+                                    fill="#FAFAFA" />
+                            </svg></div>
+                        <p class="mb-0 ff-rubik fw-normal fs-sm text_black2">Other sections like<span
+                                class="fw-semibold">Certifications, Awards, Achievements, Language</span> and <span
+                                class="fw-semibold">Reference</span></p>
+                    </div>
+                    <button class="primary-btn mt-4 bg_orange text_white2 fw-semibold fs-sm">Get Started</button>
+                </div>
+                <div class="col-md-5">
+                    <div class="position-relative"><img class="w-75" src="./assets/image/right_img_main.png"
+                            alt="right">
+                        <img class="education_card w-75 " src="./assets/image/right_primery.png" alt="primery">
+                        <img class="language_card w-75 " src="./assets/image/language.png" alt="language">
+                        <img class="skill_card w-75 " src="./assets/image/skill_card.png" alt="skill">
+                        <span class="profiessional"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Resume section -->
+    <section class="position-relative">
+        <span class="job_you d-none d-sm-block"></span>
+        <div class="container my-container py- lg-5">
+            <div class="row align-items-center justify-content-between py-5 my-md-5">
+                <div class="col-md-6 pe-lg-4 ">
+                    <div><img class="w-100" src="./assets/image/resume-sec-img.png" alt="cleaning_to"></div>
+                </div>
+                <div class="col-md-6 ps-4">
+                    <h2 class="mb-0 ff-rubik fw-medium fs-xxl text_black2">Resume trailoring based on the <span
+                            class="text_orange line_hero">job you’re applying</span> for
+                    </h2>
+                    <p class="mb-0 ff-rubik fw-normal fs-sm text_black2 pt-4 pb-3">Quickly ensure that your resume
+                        covers key
+                        skills and experience by pasting the job ad you’re applying for</p>
+                    <div class="d-flex pt-4 align-items-center gap-2">
+                        <div class="correct_click"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                viewBox="0 0 19 19" fill="none">
+                                <path
+                                    d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z"
+                                    fill="#FAFAFA" />
+                            </svg></div>
+                        <p class="mb-0 ff-rubik fw-normal fs-sm text_black2">Skills and experience analysis</p>
+                    </div>
+                    <div class="d-flex pt-3 align-items-center gap-2">
+                        <div class="correct_click"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                viewBox="0 0 19 19" fill="none">
+                                <path
+                                    d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z"
+                                    fill="#FAFAFA" />
+                            </svg></div>
+                        <p class="mb-0 ff-rubik fw-normal fs-sm text_black2">Actionable Checklist of what else to add to
+                            your
+                            resume
+                        </p>
+                    </div>
+                    <div class="d-flex pt-3 align-items-center gap-2">
+                        <div class="correct_click"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                viewBox="0 0 19 19" fill="none">
+                                <path
+                                    d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z"
+                                    fill="#FAFAFA" />
+                            </svg></div>
+                        <p class="mb-0 ff-rubik fw-normal fs-sm black">Instant comparison between your resume and the
+                            job posting
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- clients-section -->
+    <section class="bg-clients-sec position-relative">
+        <span class="clients-left-ellipse d-none d-sm-block"></span>
+        <div class="container my-container py-5 position-relative">
+            <h2 class="mb-0 ff-rubik fw-medium fs-xxl text_black2 text-center">What our Clients Say</h2>
+            <div class="clients-slider pt-4">
+                <div class="mx-3">
+                    <div class=" d-flex align-items-center">
+                        <div class="mt-lg-5">
+                            <div class="clients-card bg-white position-relative">
+                                <p class="mb-0 ff-rubik fw-normal text_gray2 fs-sm mw_321">Sit urna ornare sed quam
+                                    molestie
+                                    sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat</p>
+                                <span class="svg_trangle"><svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 pt-4 ps-3">
+                                <div><img class="br-72" src="./assets/image/darrell_men.png" alt="men"></div>
+                                <div>
+                                    <p class="mb-0 ff-rubik fw-normal fs-md text_black2">Darrell Steward</p>
+                                    <span><img src="./assets/image/5-star.png" alt="star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mx-4  mt-5 mt-lg-0 d-none d-sm-block">
+                            <div class="clients-card bg-white position-relative">
+                                <p class="mb-0 ff-rubik fw-normal text_gray2 fs-sm mw_321">Magna ipsum erat magna nulla
+                                    auctor. Phasellus consectetur aliquam vel at non faucibus viverra.</p>
+                                <span class="svg_trangle"><svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 pt-4 ps-3">
+                                <div><img class="br-72" src="./assets/image/women_img.png" alt="men"></div>
+                                <div>
+                                    <p class="mb-0 ff-rubik fw-normal fs-md text_black2">Savannah Nguyen</p>
+                                    <span><img src="./assets/image/5-star.png" alt="star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-5 d-none d-lg-block">
+                            <div class="clients-card bg-white position-relative">
+                                <p class="mb-0 ff-rubik fw-normal text_gray2 fs-sm mw_321">Morbi leo ullamcorper in et
+                                    viverra. Neque elit scelerisque purus praesent nulla ut a id.</p>
+                                <span class="svg_trangle"><svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 pt-4 ps-3">
+                                <div><img class="br-72" src="./assets/image/howard_img.png" alt="men"></div>
+                                <div>
+                                    <p class="mb-0 ff-rubik fw-normal fs-md text_black2">Esther Howard</p>
+                                    <span><img src="./assets/image/5-star.png" alt="star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" d-sm-flex align-items-center justify-content-center pt-4 d-none">
+                        <div class="">
+                            <div class="clients-card bg-white position-relative">
+                                <p class="mb-0 ff-rubik fw-normal text_gray2 fs-sm mw_321">Urna ac eu cras pellentesque
+                                    scelerisque et. Vestibulum sed felis leo leo massa elementum sit praesent eu.</p>
+                                <span class="svg_trangle"><svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 pt-4 ps-3">
+                                <div><img class="br-72" src="./assets/image/jenny_img.png" alt="men"></div>
+                                <div>
+                                    <p class="mb-0 ff-rubik fw-normal fs-md text_black2">Jenny Wilson</p>
+                                    <span><img src="./assets/image/5-star.png" alt="star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ms-4 mt-5">
+                            <div class="clients-card bg-white position-relative">
+                                <p class="mb-0 ff-rubik fw-normal text_gray2 fs-sm mw_321">Nibh in commodo faucibus
+                                    tincidunt.
+                                    Adipiscing lobortis est elit neque sem scelerisque tellus magna urna.</p>
+                                <span class="svg_trangle"><svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 pt-4 ps-3">
+                                <div><img class="br-72" src="./assets/image/wade_warren.png" alt="men"></div>
+                                <div>
+                                    <p class="mb-0 ff-rubik fw-normal fs-md text_black2">Wade Warren</p>
+                                    <span><img src="./assets/image/5-star.png" alt="star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-3">
+                    <div class=" d-flex align-items-center">
+                        <div class="mt-lg-5 d-none d-sm-block">
+                            <div class="clients-card bg-white position-relative">
+                                <p class="mb-0 ff-rubik fw-normal text_gray2 fs-sm mw_321">Sit urna ornare sed quam
+                                    molestie
+                                    sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat</p>
+                                <span class="svg_trangle"><svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 pt-4 ps-3">
+                                <div><img class="br-72" src="./assets/image/darrell_men.png" alt="men"></div>
+                                <div>
+                                    <p class="mb-0 ff-rubik fw-normal fs-md text_black2">Darrell Steward</p>
+                                    <span><img src="./assets/image/5-star.png" alt="star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mx-4 mt-5 mt-lg-0 ">
+                            <div class="clients-card bg-white position-relative">
+                                <p class="mb-0 ff-rubik fw-normal text_gray2 fs-sm mw_321">Magna ipsum erat magna nulla
+                                    auctor. Phasellus consectetur aliquam vel at non faucibus viverra.</p>
+                                <span class="svg_trangle"><svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 pt-4 ps-3">
+                                <div><img class="br-72" src="./assets/image/women_img.png" alt="men"></div>
+                                <div>
+                                    <p class="mb-0 ff-rubik fw-normal fs-md text_black2">Savannah Nguyen</p>
+                                    <span><img src="./assets/image/5-star.png" alt="star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-5 d-none d-lg-block">
+                            <div class="clients-card bg-white position-relative">
+                                <p class="mb-0 ff-rubik fw-normal text_gray2 fs-sm mw_321">Morbi leo ullamcorper in et
+                                    viverra. Neque elit scelerisque purus praesent nulla ut a id.</p>
+                                <span class="svg_trangle"><svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 pt-4 ps-3">
+                                <div><img class="br-72" src="./assets/image/howard_img.png" alt="men"></div>
+                                <div>
+                                    <p class="mb-0 ff-rubik fw-normal fs-md text_black2">Esther Howard</p>
+                                    <span><img src="./assets/image/5-star.png" alt="star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="  d-none d-sm-flex align-items-center justify-content-center pt-4">
+                        <div class="">
+                            <div class="clients-card bg-white position-relative">
+                                <p class="mb-0 ff-rubik fw-normal text_gray2 fs-sm mw_321">Urna ac eu cras pellentesque
+                                    scelerisque et. Vestibulum sed felis leo leo massa elementum sit praesent eu.</p>
+                                <span class="svg_trangle"><svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 pt-4 ps-3">
+                                <div><img class="br-72" src="./assets/image/jenny_img.png" alt="men"></div>
+                                <div>
+                                    <p class="mb-0 ff-rubik fw-normal fs-md text_black2">Jenny Wilson</p>
+                                    <span><img src="./assets/image/5-star.png" alt="star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ms-4 mt-5">
+                            <div class="clients-card bg-white position-relative">
+                                <p class="mb-0 ff-rubik fw-normal text_gray2 fs-sm mw_321">Nibh in commodo faucibus
+                                    tincidunt.
+                                    Adipiscing lobortis est elit neque sem scelerisque tellus magna urna.</p>
+                                <span class="svg_trangle"><svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 pt-4 ps-3">
+                                <div><img class="br-72" src="./assets/image/wade_warren.png" alt="men"></div>
+                                <div>
+                                    <p class="mb-0 ff-rubik fw-normal fs-md text_black2">Wade Warren</p>
+                                    <span><img src="./assets/image/5-star.png" alt="star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center gap-4 justify-content-center justify-content-sm-start">
+                <button class="pre1  svg_hover button_slider preview"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                        height="30" viewBox="0 0 30 30" fill="none">
+                        <path
+                            d="M17.5484 4.77911L8.34203 14.2235C8.18034 14.3894 8.08984 14.6119 8.08984 14.8436C8.08984 15.0752 8.18034 15.2977 8.34203 15.4636L17.5484 24.9116C17.6237 24.9889 17.7138 25.0504 17.8132 25.0924C17.9127 25.1344 18.0196 25.156 18.1276 25.156C18.2355 25.156 18.3424 25.1344 18.4419 25.0924C18.5414 25.0504 18.6314 24.9889 18.7067 24.9116C18.8617 24.7529 18.9484 24.5399 18.9484 24.3182C18.9484 24.0964 18.8617 23.8834 18.7067 23.7248L10.0493 14.8436L18.7067 5.9641C18.8612 5.80554 18.9476 5.59295 18.9476 5.37161C18.9476 5.15027 18.8612 4.93768 18.7067 4.77911C18.6314 4.70175 18.5414 4.64027 18.4419 4.59828C18.3424 4.5563 18.2355 4.53467 18.1276 4.53467C18.0196 4.53467 17.9127 4.5563 17.8132 4.59828C17.7138 4.64027 17.6237 4.70175 17.5484 4.77911Z"
+                            fill="#F36A3E" />
+                    </svg></button>
+                <button class="next1 svg_hover button_slider next "><svg xmlns="http://www.w3.org/2000/svg" width="29"
+                        height="30" viewBox="0 0 29 30" fill="none">
+                        <path
+                            d="M11.8344 4.77911L21.0408 14.2235C21.2025 14.3894 21.293 14.6119 21.293 14.8436C21.293 15.0752 21.2025 15.2977 21.0408 15.4636L11.8344 24.9116C11.7591 24.9889 11.669 25.0504 11.5696 25.0924C11.4701 25.1344 11.3632 25.156 11.2553 25.156C11.1473 25.156 11.0404 25.1344 10.9409 25.0924C10.8415 25.0504 10.7514 24.9889 10.6761 24.9116C10.5211 24.7529 10.4344 24.5399 10.4344 24.3182C10.4344 24.0964 10.5211 23.8834 10.6761 23.7248L19.3335 14.8436L10.6761 5.9641C10.5217 5.80554 10.4352 5.59295 10.4352 5.37161C10.4352 5.15027 10.5217 4.93768 10.6761 4.77911C10.7514 4.70175 10.8415 4.64027 10.9409 4.59828C11.0404 4.5563 11.1473 4.53467 11.2553 4.53467C11.3632 4.53467 11.4701 4.5563 11.5696 4.59828C11.669 4.64027 11.7591 4.70175 11.8344 4.77911Z"
+                            fill="#F36A3E" />
+                    </svg></button>
+            </div>
+        </div>
+    </section>
+    <!-- accordion -->
+    <section>
+        <div class="my-container2 container py-5">
+            <h2 class="mb-0 ff-rubik fw-medium fs-xxl text_black2 text-sm-center ps-3 ps-sm-0">Frequently Asked
+                Questions</h2>
+            <div class="accordion pt-4" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed ff-rubik fw-normal fs-xl text_black2 " type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                            aria-controls="collapseOne">
+                            Q1. How does the CVhawk work??
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body ff-rubik fw-normal fs-sm lh-154 text_gray2">
+                            Absolutely! We understand that your CV is a dynamic document that may require updates and
+                            modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and
+                            make changes whenever needed.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed ff-rubik fw-normal fs-xl text_black2 " type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            Q2. Is the CVhawk completely free to use?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body ff-rubik fw-normal fs-sm lh-154 text_gray2">
+                            Absolutely! We understand that your CV is a dynamic document that may require updates and
+                            modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and
+                            make changes whenever needed.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button ff-rubik fw-normal fs-xl text_black2 " type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true"
+                            aria-controls="collapseThree">
+                            Q3. Can I edit my CV after I've saved it?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body ff-rubik fw-normal fs-sm lh-154 text_gray2">
+                            Absolutely! We understand that your CV is a dynamic document that may require updates and
+                            modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and
+                            make changes whenever needed.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed ff-rubik fw-normal fs-xl text_black2 " type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                            aria-controls="collapseFour">
+                            Q4. Can I import my existing CV into the builder?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body ff-rubik fw-normal fs-sm lh-154 text_gray2">
+                            Absolutely! We understand that your CV is a dynamic document that may require updates and
+                            modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and
+                            make changes whenever needed.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed ff-rubik fw-normal fs-xl text_black2" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                            aria-controls="collapseFive">
+                            Q5. Is my personal information safe and secure?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body ff-rubik fw-normal fs-sm lh-154 text_gray2">
+                            Absolutely! We understand that your CV is a dynamic document that may require updates and
+                            modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and
+                            make changes whenever needed.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed ff-rubik fw-normal fs-xl text_black2" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
+                            aria-controls="collapseSix">
+                            Q6. What kind of templates are available in the CV builder?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body ff-rubik fw-normal fs-sm lh-154 text_gray2">
+                            Absolutely! We understand that your CV is a dynamic document that may require updates and
+                            modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and
+                            make changes whenever needed.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section class="position-orange-card ">
+        <div class="my-container container footer_orange_card  text-center">
+            <h2 class="mb-0 ff-rubik fw-medium fs-xxl text_white2 mw_669 mx-auto">Your Path to Success Starts Here:
+                Build
+                Your CV Today
+            </h2>
+            <p class="mb-0 ff-rubik fw-normal fs-sm text_white3 mw_615 lh-154 py-3 mx-auto "> Our CV builder not
+                only
+                provides a user-friendly interface but also offers valuable guidance along the way.
+            </p>
+            <button class="getStarted-btn mt-4 bg_white2 fw-semibold fs-sm text_black2 ">Get Started</button>
+        </div>
+    </section>
+    <footer class="bg-black3 py-5 position-relative">
+        <div class="container my-container py-5 mt-5 footer">
+            <div class="row justify-content-between pt-5">
+                <div class="col-md-4">
+                    <a href="#" class="pt-1 logo_footer"><img src="./assets/image/footer_log.png" alt="footer_log"></a>
+                    <p class="mb-0 ff-rubik fw-normal fs-sm lh-154 text_white4">Sit urna ornare sed quam molestie sit
+                        placerat
+                        convallis. Ac condimentum mollis malesuada placerat in placerat id facilisis.</p>
+                    <div class="d-flex align-items-center gap-4 pt-4">
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="24" viewBox="0 0 28 24"
+                                fill="none">
+                                <path
+                                    d="M25.804 1.76871C26.0929 1.77112 26.3756 1.8525 26.6215 2.00405C26.8675 2.1556 27.0673 2.37154 27.1993 2.62849C27.3313 2.88544 27.3905 3.17361 27.3705 3.46181C27.3505 3.75 27.2521 4.02723 27.0858 4.26348L25.49 6.5316C25.392 14.3207 22.787 19.6089 17.7469 22.2507C15.3451 23.4443 12.6915 24.0426 10.0099 23.9951C6.69401 24.0713 3.41735 23.2659 0.514696 21.6611C0.319433 21.5299 0.168521 21.3425 0.0818546 21.1238C-0.004812 20.9051 -0.0231644 20.6653 0.029217 20.4359C0.078256 20.2031 0.196719 19.9907 0.368972 19.8267C0.541225 19.6626 0.759171 19.5546 0.994049 19.517C2.944 19.2447 4.86417 18.7904 6.72944 18.1601C-1.62937 14.2931 0.193085 5.60046 0.989454 2.9311C1.06709 2.66608 1.21307 2.42615 1.41274 2.23538C1.61241 2.04462 1.85874 1.90973 2.12702 1.84425C2.39529 1.77877 2.67607 1.78501 2.94118 1.86234C3.20628 1.93967 3.44638 2.08537 3.63738 2.28481C6.08413 4.80598 9.32824 6.40233 12.8186 6.80268C12.7567 5.8647 12.9016 4.92458 13.2433 4.04886C13.585 3.17313 14.115 2.38321 14.7957 1.73501C15.9751 0.615757 17.5407 -0.0056661 19.1666 3.89365e-05C20.7925 0.00574397 22.3537 0.638138 23.5252 1.76564L25.804 1.76871ZM2.23148 20.8693C5.0831 22.2048 11.7665 23.6551 17.0363 20.8938C21.5618 18.5215 23.8912 13.6469 23.9601 6.40449C23.9632 6.16501 24.039 5.93214 24.1776 5.73677L25.8331 3.38135L25.7703 3.30018C24.977 3.28946 24.1944 3.27874 23.3965 3.30018C23.0854 3.29306 22.7876 3.17272 22.5588 2.96173C21.6772 2.06809 20.4802 1.55594 19.2251 1.53532C17.9699 1.5147 16.7568 1.98726 15.8463 2.85146C15.2615 3.40764 14.8244 4.10067 14.5744 4.86802C14.3244 5.63537 14.2694 6.45289 14.4144 7.2468C14.4411 7.3947 14.4337 7.54673 14.3928 7.69135C14.3519 7.83598 14.2787 7.96939 14.1785 8.08146C14.0826 8.19451 13.9604 8.28227 13.8226 8.33701C13.6848 8.39176 13.5357 8.41181 13.3883 8.39541C9.27355 8.10827 5.40991 6.31116 2.53931 3.34919C1.51322 6.5316 0.211462 14.2135 8.4646 17.232C8.63829 17.2944 8.79054 17.405 8.90342 17.551C9.0163 17.697 9.08509 17.8722 9.1017 18.056C9.12037 18.237 9.08707 18.4195 9.0057 18.5823C8.92433 18.745 8.79825 18.8812 8.64225 18.9749C6.6255 19.9583 4.45886 20.5986 2.23148 20.8693Z"
+                                    fill="#FAFAFA" />
+                            </svg></a>
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="26" viewBox="0 0 16 26"
+                                fill="none">
+                                <path
+                                    d="M14.575 1H10.975C9.3837 1 7.85758 1.63214 6.73236 2.75736C5.60714 3.88258 4.975 5.4087 4.975 7V10.6H1.375V15.4H4.975V25H9.775V15.4H13.375L14.575 10.6H9.775V7C9.775 6.68174 9.90143 6.37652 10.1265 6.15147C10.3515 5.92643 10.6567 5.8 10.975 5.8H14.575V1Z"
+                                    stroke="#FAFAFA" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg></a>
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="26" viewBox="0 0 27 26"
+                                fill="none">
+                                <path
+                                    d="M13.5755 18.3333C14.99 18.3333 16.3466 17.7714 17.3468 16.7712C18.347 15.771 18.9089 14.4145 18.9089 13C18.9089 11.5855 18.347 10.2289 17.3468 9.22875C16.3466 8.22856 14.99 7.66666 13.5755 7.66666C12.161 7.66666 10.8045 8.22856 9.80428 9.22875C8.80409 10.2289 8.24219 11.5855 8.24219 13C8.24219 14.4145 8.80409 15.771 9.80428 16.7712C10.8045 17.7714 12.161 18.3333 13.5755 18.3333Z"
+                                    stroke="#FAFAFA" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M1.57422 18.3333V7.66667C1.57422 5.89856 2.2766 4.20286 3.52684 2.95262C4.77708 1.70238 6.47278 1 8.24089 1H18.9076C20.6757 1 22.3714 1.70238 23.6216 2.95262C24.8718 4.20286 25.5742 5.89856 25.5742 7.66667V18.3333C25.5742 20.1014 24.8718 21.7971 23.6216 23.0474C22.3714 24.2976 20.6757 25 18.9076 25H8.24089C6.47278 25 4.77708 24.2976 3.52684 23.0474C2.2766 21.7971 1.57422 20.1014 1.57422 18.3333Z"
+                                    stroke="#FAFAFA" stroke-width="1.5" />
+                                <path d="M20.9062 5.68004L20.9196 5.66537" stroke="#FAFAFA" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-8 pt-5">
+                    <div class="row justify-content-md-between">
+                        <div class=" col-lg-3 col-md-3 col-6 pe-2 pe-sm-0 ">
+                            <p class="mb-0 ff-rubik fw-medium lh-154 text_white1 fs-sm pb-2">Quick Links</p>
+                            <ul class="px-0">
+                                <li><a href="#" class="hover-lower-line ff-rubik fw-normal text_white4 fs-sm">Home</a>
+                                </li>
+                                <li><a href="#" class="hover-lower-line ff-rubik fw-normal text_white4 fs-sm">About</a>
+                                </li>
+                                <li><a href="#" class="hover-lower-line ff-rubik fw-normal text_white4 fs-sm">We’ll help
+                                        you</a></li>
+                                <li><a href="#"
+                                        class="hover-lower-line ff-rubik fw-normal text_white4 fs-sm">Testimonials</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-5 col-6 px-2 px-sm-0 ">
+                            <p class="mb-0 ff-rubik fw-medium lh-154 text_white1 fs-sm pb-2">Support</p>
+                            <ul class="px-0">
+                                <li><a href="#"
+                                        class="d-flex align-items-center gap-sm-2 gap-1 hover-lower-line ff-rubik fw-normal text_white4 fs-sm"><span><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                viewBox="0 0 15 15" fill="none">
+                                                <path
+                                                    d="M12.0179 9.53751L10.4304 9.35626C10.2438 9.33433 10.0546 9.355 9.87702 9.4167C9.69949 9.4784 9.53825 9.57954 9.40542 9.71251L8.25542 10.8625C6.48116 9.96014 5.03903 8.51801 4.13667 6.74376L5.29292 5.58751C5.56167 5.31876 5.69292 4.94376 5.64917 4.56251L5.46792 2.98751C5.43249 2.68262 5.28617 2.4014 5.05682 2.19741C4.82747 1.99342 4.53111 1.88089 4.22417 1.88126H3.14292C2.43667 1.88126 1.84917 2.46876 1.89292 3.17501C2.22417 8.51251 6.49292 12.775 11.8242 13.1063C12.5304 13.15 13.1179 12.5625 13.1179 11.8563V10.775C13.1242 10.1438 12.6492 9.61251 12.0179 9.53751Z"
+                                                    fill="#FAFAFA" />
+                                            </svg></span>+012 345 67890</a></li>
+                                <li>
+                                    <a href="#"
+                                        class="d-flex align-items-center gap-sm-2 gap-1 hover-lower-line ff-rubik fw-normal text_white4 fs-sm"><span><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                viewBox="0 0 15 15" fill="none">
+                                                <path
+                                                    d="M12.5 2.5H2.5C1.8125 2.5 1.25625 3.0625 1.25625 3.75L1.25 11.25C1.25 11.9375 1.8125 12.5 2.5 12.5H12.5C13.1875 12.5 13.75 11.9375 13.75 11.25V3.75C13.75 3.0625 13.1875 2.5 12.5 2.5ZM12.5 5L7.5 8.125L2.5 5V3.75L7.5 6.875L12.5 3.75V5Z"
+                                                    fill="#FAFAFA" />
+                                            </svg></span>Cvhawk@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-6 pt-4 pt-md-0 ">
+                            <p class="mb-0 ff-rubik fw-medium lh-154 text_white1 fs-sm pb-2">Legal</p>
+                            <ul class="px-0">
+                                <li><a href="#" class="hover-lower-line ff-rubik fw-normal text_white4 fs-sm">Privacy
+                                        Policy</a></li>
+                                <li><a href="#" class="hover-lower-line ff-rubik fw-normal text_white4 fs-sm">Terms &
+                                        conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="border_top text-center mb-0 ff-rubik fw-medium text_white bg_black py-3">Copyright@CVhawk2023</div>
+    <!-- backtotop -->
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js "
+        integrity=" sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL " crossorigin=" anonymous ">
+        </script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js "
+        integrity=" sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin=" anonymous " referrerpolicy="no-referrer ">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js "
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin=" anonymous " referrerpolicy="no-referrer "></script>
+
+    <script src=" ./assets/js/app.js "></script>
+    <script>
+        $('.slider_hero_section').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            arrows: false,
+            responsive: [{
+                breakpoint: 991.5,
+                settings: "unslick"
+            }, {
+                breakpoint: 767.5,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+
+                }
+            }]
+        });
+    </script>
+    <script>
+        $('.themes_slick-slider').slick({
+            dots: true,
+            infinite: true,
+            speed: 4000,
+            autoplay: true,
+            autoplaySpeed: 0,
+            cssEase: 'linear',
+            arrows: false,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [{
+                breakpoint: 993,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            }, {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1
+                }
+            }, {
+                breakpoint: 575,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            }
+
+            ]
+        });
+    </script>
+    <script>
+        $('.clients-slider').slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            arrows: true,
+            prevArrow: " .pre1",
+            nextArrow: " .next1",
+
+        });
+    </script>
+</body>
+
+</html>

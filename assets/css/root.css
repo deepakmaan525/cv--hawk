@@ -1,0 +1,148 @@
+:root {
+    /* font-size */
+
+    --fs-sm: 14px;
+    --fs-md: 20px;
+    --fs-lg: 22px;
+    --fs-xl: 16px;
+    --fs-xxl: 25px;
+    --fs-xxl-1: 52px;
+
+    /* colors */
+
+    --orange: #f36a3e;
+    --white1: #fafafa;
+    --black1: #0a0a0a;
+    --gray1: #4c4847;
+    --gray2: #333333;
+    --black2: #010101;
+    --white2: #f9f9f9;
+    --green: #2ecc71;
+    --white3: #e9ece7;
+    --black3: #070707;
+    --black4: #323232;
+    --white4: #e2e2e2;
+    --white5: #e5e5e5;
+    --gray: #7d7d7d;
+}
+
+/* font size */
+.fs-sm {
+    font-size: var(--fs-sm) !important;
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl) !important;
+}
+
+.fs-xxl {
+    font-size: var(--fs-xxl);
+}
+
+.fs-xxl-1 {
+    font-size: var(--fs-xxl-1);
+}
+
+/* colors */
+
+.text_orange {
+    color: var(--orange);
+}
+
+.text_white1 {
+    color: var(--white1);
+}
+
+.text_white2 {
+    color: var(--white2);
+}
+
+.text_white3 {
+    color: var(--white3);
+}
+
+.text_white4 {
+    color: var(--white4);
+}
+
+.text_white5 {
+    color: var(--white5);
+}
+
+.text_black1 {
+    color: var(--black1);
+}
+
+.text_black2 {
+    color: var(--black2);
+}
+
+.text_black3 {
+    color: var(--black3);
+}
+
+.text_black4 {
+    color: var(--black4);
+}
+
+.text_gray {
+    color: var(--gray);
+}
+
+.text_gray1 {
+    color: var(--gray1);
+}
+
+.text_gray2 {
+    color: var(--gray2);
+}
+
+.text_green {
+    color: var(--green);
+}
+
+.bg_orange {
+    background-color: var(--orange);
+}
+
+.bg-black3 {
+    background-color: var(--black3);
+}
+
+.bg-white2 {
+    background-color: var(--white2);
+}
+
+@media (min-width:576px) {
+    :root {
+        /* font-size */
+
+        --fs-sm: 16px;
+        --fs-md: 20px;
+        --fs-lg: 22px;
+        --fs-xl: 24px;
+        --fs-xxl: 40px;
+        --fs-xxl-1: 52px;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        /* font-size */
+
+        --fs-sm: 16px;
+        --fs-md: 20px;
+        --fs-lg: 22px;
+        --fs-xl: 24px;
+        --fs-xxl: 40px;
+        --fs-xxl-1: 52px;
+    }
+}
