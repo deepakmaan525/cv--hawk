@@ -25,7 +25,7 @@ function navbar2() {
     span3.classList.toggle("d-none");
     document.querySelector("body").classList.remove("overflow-hidden");
 }
-// backtotop
+
 // back to top //
 let backToTop = document.getElementById('backToTop')
  backToTop.addEventListener("click", function () {
