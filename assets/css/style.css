@@ -155,11 +155,13 @@
 
 .crossLine1 {
     rotate: 58deg;
+    background-color: var(--orange) !important;
 }
 
 .crossLine2 {
     rotate: 123deg;
     bottom: 63%;
+    background-color: var(--orange) !important;
 }
 
 .openNav {
