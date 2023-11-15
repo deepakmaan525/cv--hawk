@@ -6,7 +6,7 @@
     --fs-lg: 22px;
     --fs-xl: 16px;
     --fs-xxl: 25px;
-    --fs-xxl-1: 52px;
+    --fs-xxl-1: 32px;
 
     /* colors */
 
@@ -130,7 +130,7 @@
         --fs-lg: 22px;
         --fs-xl: 24px;
         --fs-xxl: 40px;
-        --fs-xxl-1: 52px;
+        --fs-xxl-1: 40px;
     }
 }
 

@@ -120,9 +120,10 @@
     height: 40px;
     animation: float 2.4s linear infinite;
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    bottom: 20px;
+    right: 20px;
     z-index: 5;
+    cursor: pointer;
 }
 
 /* ----------------navbar---------------- */
@@ -913,6 +914,10 @@
         width: 626px;
         height: 115px;
         z-index: -1;
+    }
+
+    .nav-icon {
+        top: 10%;
     }
 }
 
