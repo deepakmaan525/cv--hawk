@@ -82,7 +82,7 @@
 }
 
 .text_black2 {
-    color: var(--black2);
+    color: var(--black2) !important;
 }
 
 .text_black3 {
